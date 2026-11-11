@@ -1,0 +1,194 @@
+{
+  "title": "Registro oggetti smarriti e ritrovati",
+  "description": "Prototipo navigabile per registrare gli oggetti consegnati al comando, filtrare le giacenze e consultare le restituzioni. Dati e luoghi sono interamente inventati.",
+  "accent": "indigo",
+  "pages": [
+    {
+      "id": "dashboard",
+      "title": "Panoramica",
+      "description": "Riepilogo delle registrazioni e accesso rapido alle giacenze e ai filtri del registro.",
+      "metrics": [
+        {
+          "label": "Oggetti registrati",
+          "value": "24"
+        },
+        {
+          "label": "In giacenza",
+          "value": "16"
+        },
+        {
+          "label": "Restituiti",
+          "value": "8"
+        },
+        {
+          "label": "Ultimi 7 giorni",
+          "value": "5"
+        }
+      ],
+      "columns": [
+        "Categoria",
+        "Stato",
+        "Quantità"
+      ],
+      "rows": [
+        [
+          "Chiavi",
+          "In giacenza",
+          "7"
+        ],
+        [
+          "Borse",
+          "In giacenza",
+          "4"
+        ],
+        [
+          "Telefoni",
+          "Restituito",
+          "3"
+        ],
+        [
+          "Documenti di esempio",
+          "Restituito",
+          "2"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "registro-oggetti",
+      "title": "Registro oggetti",
+      "description": "Elenco filtrabile per categoria, stato e data di ritrovamento. Usa la ricerca per individuare una voce tramite codice o luogo generico.",
+      "metrics": [],
+      "columns": [
+        "Codice",
+        "Data ritrovamento",
+        "Categoria",
+        "Luogo generico",
+        "Scaffale deposito",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "LUM-024",
+          "2025-03-18",
+          "Chiavi",
+          "Giardino delle Nebbie",
+          "A-03",
+          "In giacenza"
+        ],
+        [
+          "VEL-023",
+          "2025-03-17",
+          "Borsa",
+          "Piazza delle Lanterne",
+          "B-01",
+          "Restituito"
+        ],
+        [
+          "NUB-022",
+          "2025-03-16",
+          "Telefono",
+          "Sentiero delle Vele",
+          "C-02",
+          "In giacenza"
+        ],
+        [
+          "LUM-021",
+          "2025-03-15",
+          "Documenti di esempio",
+          "Portico dei Gelsi",
+          "D-01",
+          "In giacenza"
+        ],
+        [
+          "VEL-020",
+          "2025-03-14",
+          "Chiavi",
+          "Giardino delle Nebbie",
+          "A-02",
+          "Restituito"
+        ],
+        [
+          "NUB-019",
+          "2025-03-13",
+          "Borsa",
+          "Belvedere dei Gabbiani",
+          "B-03",
+          "In giacenza"
+        ],
+        [
+          "LUM-018",
+          "2025-03-12",
+          "Telefono",
+          "Piazza delle Lanterne",
+          "C-01",
+          "In giacenza"
+        ],
+        [
+          "VEL-017",
+          "2025-03-11",
+          "Documenti di esempio",
+          "Sentiero delle Vele",
+          "D-02",
+          "Restituito"
+        ],
+        [
+          "NUB-016",
+          "2025-03-10",
+          "Chiavi",
+          "Portico dei Gelsi",
+          "A-01",
+          "In giacenza"
+        ],
+        [
+          "LUM-015",
+          "2025-03-09",
+          "Borsa",
+          "Giardino delle Nebbie",
+          "B-02",
+          "Restituito"
+        ],
+        [
+          "VEL-014",
+          "2025-03-08",
+          "Telefono",
+          "Belvedere dei Gabbiani",
+          "C-03",
+          "In giacenza"
+        ],
+        [
+          "NUB-013",
+          "2025-03-07",
+          "Chiavi",
+          "Piazza delle Lanterne",
+          "A-04",
+          "In giacenza"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "nuova-registrazione",
+      "title": "Nuova registrazione",
+      "description": "Inserisci i dati essenziali dell’oggetto ritrovato e consegnato al comando. Il codice è inventato e non contiene dati personali.",
+      "metrics": [],
+      "columns": [
+        "Codice",
+        "Data ritrovamento",
+        "Categoria",
+        "Luogo generico",
+        "Scaffale deposito",
+        "Stato"
+      ],
+      "rows": [],
+      "form": [
+        "Codice",
+        "Data ritrovamento",
+        "Categoria",
+        "Luogo generico",
+        "Scaffale deposito",
+        "Stato"
+      ]
+    }
+  ]
+}
